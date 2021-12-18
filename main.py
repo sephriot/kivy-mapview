@@ -19,11 +19,6 @@ screen_helper = """
             source: "SephCodeLogo.png"
             lat: 40.41362602642995
             lon: -3.6819590868909984    
-    MDIconButton :
-        icon : "apps-box" 
-        pos_hint: {'center_x':0.1,'center_y':0.1}
-        user_font_size : 40 
-        on_press: root.manager.current = 'UserPlatformFunctions'
     MDIconButton : 
         id : idz_do_gory  
         icon : "arrow-up-bold-box-outline"       
